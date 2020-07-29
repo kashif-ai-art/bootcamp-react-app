@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-     <h1>TWO DAYS TO EID</h1>
+      <h1>TWO DAYS TO EID</h1>
     </div>
   );
 }
