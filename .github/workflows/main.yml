@@ -33,7 +33,7 @@ jobs:
       run: yarn build
    
     - name: installing surge  
-      run: nmp install -g surge
+      run: npm install -g surge
       
     - name: dploying on surge
       run: surge ./build http://shallow.surge.sh/ --token ${{ secrets.token }}
